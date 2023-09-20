@@ -2,11 +2,11 @@ function NavBar(){
     return(
         <>
             <header className="flex w-screen items-center justify-between px-20 py-7 shadow-md">
-                <div className="flex align-middle justify-center ">
+                <div className="flex align-middle">
                     <div className="w-48 h-10">
                         <img src="./src/images/logo.svg" alt="" />
                     </div>
-                    <div id="menu" className="pl-4 align-middle">
+                    <div id="menu" className="pl-4 flex">
                         <ul className="flex text-lg font-semibold space-x-4 text-gray-500 ">
                             <li className="nav-item">
                                 <a className="nav-link active" href="#">Encontrar Herói</a>
